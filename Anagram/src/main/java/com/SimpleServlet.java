@@ -29,6 +29,7 @@ public class SimpleServlet extends HttpServlet {
 			e.printStackTrace();
 		 }
 		response.getWriter().write(json.toString());
+		 //Comment added to test git
 	}
 	@Override
 	public void init() throws ServletException {
