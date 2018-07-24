@@ -30,6 +30,7 @@ public class SimpleServlet extends HttpServlet {
 		 }
 		response.getWriter().write(json.toString());
 		 //Comment added to test git
+		//comment for branch
 	}
 	@Override
 	public void init() throws ServletException {
